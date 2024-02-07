@@ -10,8 +10,8 @@
 	//},
 
 	// image
-	"image": "serial115200/notes:v1.0.3",
-	//"image": "serial115200/notes_pdf:v1.0.3",
+	"image": "serial115200/devcontainer_sphinx:latest",
+	//"image": "serial115200/devcontainer_sphinx_pdf:latest",
 
 	"customizations": {
 		"vscode": {
