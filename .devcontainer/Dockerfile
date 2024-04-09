@@ -24,6 +24,6 @@ rm -rf /var/lib/apt/lists/*
 EOF
 
 RUN <<EOF
-pip install --no-cache-dir --upgrade pip
-pip install --no-cache-dir -r requirements.txt
+pip3 install --no-cache-dir --upgrade pip3
+pip3 install --no-cache-dir -r requirements.txt
 EOF
